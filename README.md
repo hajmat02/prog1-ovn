@@ -1,2 +1,4 @@
 # prog1-ovn
- Övningr för programering 1
+ Övningar för programering 1
+
+Detta är ett övningsrepo för kursen Proramering 1.
