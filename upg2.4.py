@@ -1,5 +1,6 @@
-svar=input("Rektangelns sida är")
+svar=input('Kvadratens sida är: ')
 x=float(svar)
 a=x*x
-o=x*4
-print=(f"Rektangelns area är:{a} och rektangelns omkrets är:{o}")
+o=x+x+x+x
+print(f'Kvadratens area är:{a} ')
+print(f'Kvadrates omkrets är:{o} ')
