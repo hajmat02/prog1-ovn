@@ -1,6 +1,9 @@
-m = float(input('Hur många minuter har du ringt denna månad? '))
-k = float(input('Hur mycket kostar varje minut? '))
-pris = m+k
-if  pris > 300:
-    pris = pris * 0.9
-print(f'Pris: {pris:.2f}')
+y = float(input('Hur mycket kostar ett årskort? '))
+b = float(input('Hur mycket kostar en biljett? '))
+p = float(input('Hur många gånger tänker du besöka gymmet under ett år? '))
+svar = p*b
+
+if  svar>y:
+    print('Ett årskort är bäst för dig.')
+else:
+    print('Att köpa biljetter är bäst för dig.')
