@@ -1,4 +1,4 @@
-import math
+import math #gör så att man kan skriva mattematiska saker på ett enkelt sätt
 
 #ett program som räknar ut en cirkels area och omkrets 
 svar = input ('Cirkelns radie:') 
