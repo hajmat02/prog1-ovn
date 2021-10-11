@@ -3,12 +3,12 @@ fileHandle = "log.txt"
 while True:
     val = input('[1] Läs logg\n[2] Skriv logg\n[3] Rensa logg\n[4] Avsluta\nVal:')
 
-    if val =        §§"1":
+    if val = "1":
         print('Alla loggar')
 
 
         with open(fileHandle, 'r', encoding='utf-8') as logfile:
-            for linre in logfile:
+            for line in logfile:
                 log = line.split('')
 
 
